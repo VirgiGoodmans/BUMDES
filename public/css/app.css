@@ -1,0 +1,13 @@
+// Contoh jika menggunakan Bootstrap dan custom styling
+@import '~bootstrap/scss/bootstrap'; // Import Bootstrap SCSS
+
+body {
+    background-color: #f8f9fa;
+}
+
+.custom-header {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+// Tambahkan styling lain di sini
