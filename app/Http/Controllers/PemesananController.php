@@ -1,9 +1,9 @@
 <?php
 
-namespace app\Http\Controllers;
+namespace App\Http\Controllers;
 
-use app\Models\Pemesanan;
-use app\Models\Spot;
+use App\Models\Pemesanan;
+use App\Models\Spot;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace app\Http\Controllers;
+namespace App\Http\Controllers;
 
-use app\Models\News;
+use App\Models\News;
 
 class HomeController extends Controller
 {

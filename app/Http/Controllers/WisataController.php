@@ -1,9 +1,9 @@
 <?php
 
-namespace app\Http\Controllers;
+namespace App\Http\Controllers;
 
-use app\Models\Wisata;
-use app\Models\Spot;
+use App\Models\Wisata;
+use App\Models\Spot;
 use Illuminate\Http\Request;
 
 class WisataController extends Controller
