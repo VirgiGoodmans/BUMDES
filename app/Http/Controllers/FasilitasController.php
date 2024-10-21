@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Fasilitas;
-use App\Models\PaketKegiatan;
+use app\Models\Fasilitas;
+use app\Models\PaketKegiatan;
 
 class FasilitasController extends Controller
 {

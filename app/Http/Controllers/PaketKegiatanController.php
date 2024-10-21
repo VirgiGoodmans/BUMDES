@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\PaketKegiatan;
+use app\Models\PaketKegiatan;
 
 class PaketKegiatanController extends Controller
 {

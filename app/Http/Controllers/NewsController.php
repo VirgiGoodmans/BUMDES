@@ -2,7 +2,7 @@
 
 namespace app\Http\Controllers;
 
-use App\Models\News;
+use app\Models\News;
 
 class NewsController extends Controller
 {

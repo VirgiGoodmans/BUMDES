@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers;
 
-use App\Models\Wisata;
-use App\Models\Spot;
+use app\Models\Wisata;
+use app\Models\Spot;
 use Illuminate\Http\Request;
 
 class AdminController extends Controller
