@@ -1,13 +1,42 @@
-// Contoh jika menggunakan Bootstrap dan custom styling
-@import '~bootstrap/scss/bootstrap'; // Import Bootstrap SCSS
-
-body {
-    background-color: #f8f9fa;
+/* Header style */
+header {
+    background-color: #ddebf0;
+    padding: 20px 0;
 }
 
-.custom-header {
-    background-color: #007bff;
-    color: #ffffff;
+/* Navbar font and button style */
+.navbar a {
+    font-family: 'Sans-serif';
+    font-weight: medium;
+    font-size: 20px;
+    color: #000;
 }
 
-// Tambahkan styling lain di sini
+.navbar a.small {
+    font-size: 13px;
+}
+
+/* Button style */
+.navbar .nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button style */
+.navbar .nav-item .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    background-color: #fff;
+    min-width: 200px;
+    padding: 10px 0;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+/* Show dropdown when hovering */
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
