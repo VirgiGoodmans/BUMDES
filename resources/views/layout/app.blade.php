@@ -16,6 +16,9 @@
 
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="/">
+            <img src="{{ asset('images/BUMDES-Sidowayah.png') }}" alt="BUMDES Sidowayah" width="150">
+        </a>
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/') }}">BUMDES Sidowayah</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
