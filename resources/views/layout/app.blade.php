@@ -85,16 +85,35 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-light text-center mt-5 p-3">
+    <footer>
         <div class="container">
-            <p>&copy; 2024 BUMDES Sidowayah. All rights reserved.</p>
-            <div class="d-flex justify-content-center">
-                <a href="#" class="me-3">Privacy Policy</a>
-                <a href="#" class="me-3">Terms of Service</a>
-                <a href="#">Contact Us</a>
+            <div class="footer-part">
+                <!-- Part 1: Logo BUMDES -->
+                <div class="footer-logo">
+                    <img src="{{ asset('images/BUMDES-Sidowayah.png') }}" alt="Logo BUMDES">
+                </div>
+
+                <!-- Part 2: Tautan -->
+                <div>
+                    <h4>Tautan</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+
+                <!-- Part 3: Sosial Media -->
+                <div>
+                    <h4>Sosial Media</h4>
+                    <a href="#">Instagram</a><br>
+                    <a href="#">WhatsApp</a><br>
+                    <a href="#">TikTok</a>
+                </div>
             </div>
         </div>
     </footer>
+
 
     <!-- Bootstrap JS and Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>

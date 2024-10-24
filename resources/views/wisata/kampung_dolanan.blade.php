@@ -1,24 +1,42 @@
 @extends('layout.app')
 
-@section('title', 'Wisata Kampung Dolanan')
+@section('title', 'Umbul Kemanten')
 
 @section('content')
 <div class="container mt-5">
-    <h2>Kampung Dolanan</h2>
-    <p>Tempat wisata edukasi yang menawarkan berbagai permainan tradisional dan kegiatan outbond.</p>
-    <img src="{{ asset('images/kampung_dolanan.jpg') }}" class="img-fluid mb-4" alt="Kampung Dolanan">
-    
-    <h3>Paket Kegiatan yang Tersedia</h3>
-    <ul class="list-group mb-4">
-        @foreach($paket_kegiatan as $paket)
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                {{ $paket->nama_paket }}
-                <span class="badge bg-primary rounded-pill">Harga: Rp {{ number_format($paket->harga) }}</span>
-                <a href="{{ route('pemesanan.create', $paket->id) }}" class="btn btn-success">Pesan Paket</a>
-            </li>
-        @endforeach
-    </ul>
+    <!-- Bagian Tengah: Gambar dan Judul -->
+    <div class="text-center">
+        <img src="{{ asset('images/ProfileKemanten.png') }}" class="img-fluid" alt="Umbul Kemanten">
+        <h2 style="font-family: Arial, sans-serif; font-weight: bold;">Umbul Kemanten</h2>
+    </div>
 
-    <a href="{{ url('/') }}" class="btn btn-secondary">Kembali ke Beranda</a>
+    <!-- Bagian Sekilas Info: Kanan teks, kiri gambar -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <img src="{{ asset('images/KemantenDetail1.png') }}" class="img-fluid" alt="Umbul Kemanten">
+        </div>
+        <div class="col-md-6">
+            <p>
+                Umbul Kemanten menghadirkan wisata mata air alami yang sangat menyegarkan. Disini, kalian bisa merasakan nikmatnya makan belut sambil mengapung di mata air yang asri.
+            </p>
+        </div>
+    </div>
+
+    <!-- Fasilitas: Kiri teks, kanan gambar -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <p>
+                Di Kemanten terdapat berbagai macam kolam mata air, baik yang modern maupun yang alami. Kolam modern menawarkan air jernih tanpa kaporit, sementara kolam alami masih memiliki kehidupan di dalamnya. Kemanten juga memiliki banyak UMKM lokal yang menyediakan makanan lezat untuk disantap setelah berenang.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img src="{{ asset('images/KemantenDetail2.png') }}" class="img-fluid" alt="Fasilitas Kemanten">
+        </div>
+    </div>
+
+    <!-- Button untuk Booking -->
+    <div class="text-center mt-5">
+        <a href="/pemesanan" class="btn btn-danger btn-lg">Tertarik untuk Booking tempat? Order sekarang!</a>
+    </div>
 </div>
 @endsection

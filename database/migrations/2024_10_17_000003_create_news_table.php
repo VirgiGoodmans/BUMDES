@@ -10,9 +10,9 @@ class CreateNewsTable extends Migration
     {
         Schema::create('news', function (Blueprint $table) {
             $table->id();
-            $table->string('judul');
-            $table->text('konten');
-            $table->string('kategori');
+            $table->string('title'); // Sesuaikan dengan title di model
+            $table->text('content'); // Sesuaikan dengan content di model
+            $table->string('kategori'); // Bisa menjadi enum jika kategorinya sudah jelas
             $table->date('tanggal_terbit');
             $table->string('gambar')->nullable();
             $table->timestamps();

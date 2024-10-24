@@ -40,3 +40,38 @@ header {
 .navbar .nav-item:hover .dropdown-menu {
     display: block;
 }
+/* Warna background untuk body */
+body {
+    background-color: #0AC2C5;
+    color: #000;
+}
+
+/* Footer style */
+footer {
+    background-color: #067F81;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Logo di footer */
+footer .footer-logo img {
+    width: 100px;
+}
+
+/* Bagian Footer */
+footer .footer-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer-part div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

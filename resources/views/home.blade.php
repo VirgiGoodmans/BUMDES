@@ -7,13 +7,16 @@
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="{{ asset('images/banner1.jpg') }}" class="d-block w-100" alt="Banner 1">
+                <img src="{{ asset('images/EventSlideBanner_2024_10_11_0000.png') }}" class="d-block w-100" alt="Banner 1">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('images/banner2.jpg') }}" class="d-block w-100" alt="Banner 2">
+                <img src="{{ asset('images/EventSlideBanner_2024_10_11_0001.png') }}" class="d-block w-100" alt="Banner 2">
             </div>
             <div class="carousel-item">
-                <img src="{{ asset('images/banner3.jpg') }}" class="d-block w-100" alt="Banner 3">
+                <img src="{{ asset('images/EventSlideBanner_2024_10_11_0002.png') }}" class="d-block w-100" alt="Banner 3">
+            </div>
+            <div class="carousel-item">
+                <img src="{{ asset('images/EventSlideBanner_2024_10_11_0003.png') }}" class="d-block w-100" alt="Banner 4">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -26,32 +29,22 @@
         </button>
     </div>
 
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{ asset('images/news1.jpg') }}" class="d-block w-100" alt="News 1">
+    <!-- Profil Desa Singkat -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Bagian Kiri (Teks) -->
+            <div class="col-md-6">
+                <h3>Profil Singkat Desa</h3>
+                <p>
+                    Sidowayah adalah sebuah desa wisata yang berada di kecamatan Polanharjo, kabupaten Klaten, provinsi Jawa Tengah. Desa yang memiliki luas sekitar 100 hektare dan dihuni oleh lebih dari 3000 jiwa ini memiliki tempat wisata mata air dan tradisional yang sangat indah. Tak hanya wisata, Sidowayah juga memiliki sederet UMKM lokal yang sangat menarik.
+                </p>
             </div>
-            <div class="carousel-item">
-                <img src="{{ asset('images/news2.jpg') }}" class="d-block w-100" alt="News 2">
-            </div>
-            <div class="carousel-item">
-                <img src="{{ asset('images/news3.jpg') }}" class="d-block w-100" alt="News 3">
+            <!-- Bagian Kanan (Gambar) -->
+            <div class="col-md-6">
+                <img src="{{ asset('images/SidowayahMap.png') }}" class="img-fluid" alt="Peta Sidowayah">
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
     </div>
-
-    <!-- Profil Desa Singkat -->
-    <div class="mt-5">
-        <h2>Profil Desa Sidowayah</h2>
-        <p>Desa Sidowayah merupakan desa wisata dengan berbagai destinasi menarik seperti Siblarak, Umbul Kemanten, dan Kampung Dolanan. Desa ini juga terkenal dengan produk UMKM lokalnya.</p>
-        <img src="{{ asset('images/desa.jpg') }}" class="img-fluid" alt="Profil Desa">
-    </div>
-
     <!-- Newest Info -->
     <div class="mt-5">
         <h3>Info Terbaru</h3>
